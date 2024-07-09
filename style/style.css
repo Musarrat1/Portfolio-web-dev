@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Work Sans", sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn-content{
+    text-align: center;
+}
+.btn{
+    padding: 12px 15px 12px 15px;
+    color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+#hero{
+    height: 427.335px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#hero .hero-content{
+  width: 475.69px;
+ 
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+#hero .hero-content .head{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 26px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 14px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 7px;
+font-weight: 500;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+
+}
+#card{
+    width: 613.8px;
+    margin: 80px auto;
+}
+#card .c-box .head{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card .c-box .subtitle{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+.card-container{
+    margin-top: 30px;
+}
+.card1{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.card1 .img-box{
+    width: 250px;
+}
+.card1 .img-box img{
+    width: 100%;
+}
+.Shop{
+
+}
